@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Failing grades related to study habits</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: google sans;
+                background-color: #86e5ff;
+            }
+            ol {
+                font-size: 150%;
+            }
+            li {
+                transition: 1s;
+            }
+            li:hover {
+                background-color: white;
+                transition: 1s;
+            }
+            #present {
+                box-shadow: 0px 5px 5px black;
+                background-color: limegreen;
+                transition: 0.5s;
+                border-radius: 10%;
+                border: none;
+                font-family: 'Ubuntu';
+            }
+            #present:hover {
+                background-color: lightgreen;
+                transition: 0.5s;
+            }
+            #present:active {
+                box-shadow: 0px 2px 2px black;
+                transform: translateY(5px);
+                transition: 0.1s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Failing grades related to study habits</h1>
+        <ul type="none">
+
+            <b><li>
+                <h2>Author's viewpoint:</h2>
+                <ol>
+                    <li>Poor study habits are one of the main causes of failing grades.</li>
+                    <li>Lack of time management and inconsistent studying lead to unsatisfactory performance.</li>
+                    <li>Changing study habits can improve academic performance and help avoid failing.</li>
+                </ol>
+            </li>
+             <li>
+                <h2>Sophia's viewpoint:</h2>
+                <ol>
+                    <li>Agrees that ineffective study habits can cause low grades.</li>
+                    <li>Managing time and following a study schedule can help students perform better.</li>
+                    <li>Being consistent in studying makes learning easier.</li>
+                </ol>
+            </li>
+             <li>
+                <h2>Darrick's viewpoint:</h2>
+                <ol>
+                    <li>When doing anything productive, if you do something else in the background, it's easy to get distracted.</li>
+                    <li>Even if you feel confident, you have to recall the lesson to see if you are prepared.</li>
+                    <li>When studying, you have to try to remember the lesson instead of just reading it.</li>
+                </ol>
+            </li></b>
+
+        </ul>
+        <button id="present"><h3>Next Topic</h3></button>
+        <script>
+            const present = document.getElementById("present");
+            present.addEventListener("click", function() {
+                window.location.href = "topic3.html";
+            });
+        </script>
+    </body>
+</html>

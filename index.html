@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <title>"Grades Matter" | English Presentation by Darrick Dumagsa and Sophia Chavarria</title>
+        <style>
+            body {
+                background-color: #86e5ff;
+                text-align: center;
+            }
+            h1 {
+                font-family: 'Google Sans';
+            }
+            h2 {
+                font-family: google sans;
+            }
+            img {
+                position: absolute;
+                width: 25%;
+                height: auto;
+            }
+            #present {
+                box-shadow: 0px 5px 5px black;
+                background-color: limegreen;
+                transition: 0.5s;
+                border-radius: 10%;
+                border: none;
+                font-family: 'Ubuntu';
+            }
+            #present:hover {
+                background-color: lightgreen;
+                transition: 0.5s;
+            }
+            #present:active {
+                box-shadow: 0px 2px 2px black;
+                transform: translateY(5px);
+                transition: 0.1s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grades Matter</h1>
+        <h2>A topic discussed by Louie G. Mendoza</h2>
+        <h2>Presented by Darrick Dumagsa and Sophia Chavarria</h2>
+        <button id="present"><h3>Start Presentation</h3></button>
+        <!--<img id="n" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABPlBMVEX/////9Mj/2oQ4nNwqhs2pn5c3EAAuBQA3EwCPcT0yU204nuDm3LA1FAArCAA/Iwna1dE4bpA1MTUqgcIzlNf/6aoxDwAvjtJONiD/4pnAEiX/+84qAAD/9MknAAAkAABOMhUvDACUCxg3GgCsBSAhAAD/4IjmxXU2WG3//9Hy57u6saqupZ1+b2LHwLo3lM6HExQvAAD/7bVEJgDLvZXXyqAcAADwzXuzpH43DADy8O3Eto+PfFtzXj+kk29hSzB9YjZnTik3KB01TFno5eJ+a026mVjRr2c2ga8vYIdaQzFkUECaj4dNNiVvXlFDKRSKfHJoUTRJLQBYPiGZh2NlTS0/HQBVOxmfgkuKbTs2Jhk3ib02T182OT03Hw6+nVk3NCowbp3t05Dl0584dp1IGAFmFA1AGABzEg9VFga1CNtUAAAPxElEQVR4nO2dDV/ayBbGr1YNdZnE3q1TWsYk0xRfqNpSSI1CAr6ktmqlFMS2rnZ7b3e79/t/gXtmAhggCOEldt159rcVBR7PP2cSOIeT+K9/CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJhdLOwcLCJtfCwsHOzihO7VZji3D4gBY2Zz+cHmXnVKJqIFUl2zH9eONkfXMhpNXC5vrJxrEe2yaqZ0XUuezR6QdwuiXQnYPNk+P3BpYkipiwJ36TShIuv9842RwoC8xp46gMz6LY58RvMyfj/fGATuPUwexpWSIYYFQtlSKGntjlquoKVlMpVYYAKckkTtf75XJh/TSRIRRjStgT5+rn1UrFtitn5x9jJJXS4C6EiVTemD2IhMwL6iShqRRhWTLOS5/eHK5sTU8vNzU9vbVy+Ol+SUeAiahKsiebvbb/zuaJzp0kNZawC07OTE9NJZNrTMnk1FQ6nrNqbhERwpy0xEnYpT+Udp5D9mD5UOX881dg86iWlx8/Xlx81dLi4n9W3pSqBlvCEjoN3P6wDhB3MqquZabTwAZUbeI/SZv5QpE7Zcqnzye9WiF9sM2papTerEwztOlpQHv1ampqiakRGL8N0aVNy81qEqyy7Y3NDqfNjW3IjKRlgW6qC60TdCpuuT9UGX7zZBO54KVPKb3Z8vAeP37lAQUGtsRCS+fdBBwtKD32JfJg9hhSh6WEm4fU3UjXomRO7NdDIifFePDBkBDVlE+QPZ68xd5wbaHFrYpGEM4crXtLbGf9KIMR0SpWfEC8ppPp1FMUycaHSRx1Fj5AlNQoHTaytzgIXTO0ZLyWUDFSJWDcWZdUhNVELd5nbQZD5mxEYet8GHced2YVycCY8bH0Lb6aGhivEVnaqcISw8frx/BCJ1WdQVdnAGMJY0NSZsd6zDk4Ypu9dOilLyxeI7S0pWtw0MFI0630cHhMS4vLhyW2II7GuVSfZwy06+VvSL4GYxkZqDwKHyOEOA53kZF5Pk5CSktbTb4RokuaZVQ2R+HjhPD6u1WidLyE8n3ON2z6mooncCI+mgUnnJ6+L0+A8PFI+ft7EI4sQSgIx0j4fNavDfQTEqKNthhD8m5mSMYnbPyEhAb2h0gyndXLzZqFl/i5a8X6EyabGpGwr881YcwXIbwBmA1HKKHL+fnVpvZvWKWsQkrHTTOftywrnzfNOCvUhyDkRX2bTzqocLxepfvN8Obn5y+RFJZwbn5m5pemHsR6ECbXpkyrYBeVmEQ8YUMvurV8fGotiLIXIfjE8zW3qBu44SPFlKJdgOq406dFGHvQiO7RzMzM/NxQhPcaCibkNXwlxptFGFNZZnHJ7LasplIf3XxA9RdICBVk3v3o9a/Ah20rmftQoqViFctM+1PpJ/TCmxAhhOVUFKgUEIUSXq/arlsAuZViAop3ipBMWQXfwRhAmGRdACp7PolixbNx7aru+WCiVBzfxoqIEMKyKZQwspqpulYunvYdIdJmznF1olLIZbZmtu1KnYTJpFnLQu6oSnSX99p8PvGc5VYzqoywRu3WxoqEEMqgKmZNwARrI3UfDniDzLHLBGpdw875Fms7IavYDaiLSdl2zIDjEzM2La/Pg6uNoisCwuSUVYTVqZKzoD3NF53pnKdkJGP7Oo9+QsifjeH+1DlbhL2NYC89I1CBk6LFft3kCZP5agojknDigUfLdkrTVQiimm0GEJq2RhFRXBMOpH181uJOgiCcquajILQoRpJuDfbOBBJZUCSDGlYXoQU/lZTCoO22uKVLCFNr8oTphEQMJ0QfIhkvEJkU0x2E6SL8tBAP4ZN2DCIl0pPPoVN2Q8TFYzPdREAOE27IfkYy7padKI404dq4PLSp5pr274dD+kT2ij+cxllbCEJBKAgF4Z0j9PoOfdsYfQmT10Y/DaFX6HjNB8vK58x40Cfy/QkbPrmGT76XT7SE7AN2KOLOdAXeMlJJYsM1hpKoFCwz+PPBnl0MKLesQiWhGNizgTe/in7GSs/OsiNCQm9+QJcazQdCVFUlROajMQQdQYHfXXwEdzHWoMw/QoRP1Ug+HyihJd212iEj7GKYjq5pbKyG4Hq14hZqNadWK7h2NUsJQMspcmZ1fpLdTZhMxq0zkmJPIDRbtVs+lWodEzaSo2m6Y95KF0Pxxmq8Lka6dVc6Hc85btWQ2MRUomC2rdauLgZUVwk29SQZVdfp8rHcqkLZSI4SfRdDVymSm8MwAYM+sFvZBjyGkD5dDFjQVDVs3lALGhjiIzlskEaPsIuRttjQgVS2bxyGYXuprVBE8dk1Y1sXYyp3huF+xb5x6oQN0thskEbyOjURdDFyFTZtYNT6Vz+QSTujIirZzUrQR5g0bTjyqhnb7FtOw8aqGWzKoZJLRkDovMaIwObs11zxtBavlQmSXztdhM5rGZFyLT6YD1s4BOHXEVTA6aIsK06YKj9eQDSwi0FRIcQ7uGTcUWS5GEEXw6oP0cWod3UxkuATvotRj6ATBVs/VFg8tNZz/Eea8D78OaK2EISCUBAKwr8tYdKnkQj7G91GF4PPUOQty3Ecy8p7sxjDdDEG87mFLobjFrMZompQmqvsfKVtnXcxAiF7djGSvIuhb7Pzp1QukskWWcl4q12MtOlUypifrsRmKLi8byhK2JbZXXz0mMWAYjKBqPdUz0ZufIPLFee2ZjGSplOMsdN1iJYi2ard6D7Y1SxJaYQ1a+pQ+K317WKsQRlZZy2aQB8KNVOs6PjmHSLrYlhVTWW9laxd40uSnanET1ha89pmEDSimurm+nQxcq6qwSNJ3WvQ8VOe1pL8xCfwqdlZ1vNRtaoVdReDNVdkrLv5eMBoFu98WlCYw2OQnb+hi5G34RFYKkO2uc9St0/e1bHMWj5RdjEcdlqBVndzwYeTZngASVkXppjv0cXIF1knh9pdLbl2n3TOrWvsJAYnmi4GxMXmZIrOAF0M1kmTEMaVXABhroIxkjq7ccE+cafI5m6KkcxiOKxLUx/wnAl2PtAc69QEfI7PujRzg54bBDtGnXVqouhiHEmSboX4CH4t7ShSYBdDUpwBuz2cccrSJekoii5G1g35zjJpunpADvUhuhjZKLoYyfDnZMEhMaCbOKSPqC0EoSAUhILw70vI2w5rY+pirK39ZLMYjREKx6k5TmsYIzShz8e5ySfiLgbEnHfcYqIOFR7xanzEZjGcXOhZjJzDZjEQG1WQJAI+9UTRdfLxzgH3aLsYuVoxpvJZDFkiXneF9R+opKrZkF2MrKpKlJ9P0vThsxhqrFjL3VIXI50r6IiNI0gSbG3brcEaddgsBmQ0I/Phg7OuCiugiwGV0Rkfa5Az3KfAfWrcR+L+SC/k0rfQxajECFQzKVItWGb7GSVx0yqckxS74ke90LeLUaizK4CkyLnnM9XuU4XfgBGJVSLuYsSdjMa6GN4K6t7h4KjKzvUhFEI/95eSHV2MtHUOG4ISfv5QwMkNSW9PoOy0mUzjg+douhgJPovh9jictJafxWZuMC5en/7U1sVI54usyu8/i5HjFzWREhF1MZJWFYptter0r84BspBlD+7RxVAx0rKDdDFg0VTZg6tWFNVTTUWIFrvOSusVHMQmGVgKmMWQsAFpGXAmgCWcIqRG0cVISOqgXZoGY40QNaCLoRJSC3VGiVVXIzmjxErUQl65Yy1eKOaTHYTJfLEw4CzNNWMt8TebxfBvqCX23xL7l9/o4ZSGu6J+X7q05F34igfVuN07wqD3NN5T+AXCPL3qvLJW+8OjJOQx8NAe+7TIr/0VTNlNyNjg6dMdWn782OO8NUJvu0Noy52xNQMMvNJSOyF4gEWgQcNl8VVXKiMhbMD1Dq0ZYRelj5CZ9LfovujPxAn5wrxpw3emoQ2yRQg/G9ik3WOyhOxQN9CG78rCUhsh4wtlsbzYspgo4TB4LUYfYVi+No+JEg6+OLu0vMiPGB7hq+DDU3/GpQkTjii20IDw/X+H42swTvQVf1TBzgSE+sooHsD4ExNCfP8dlRCWwk9NOL2ij0zYkCAUhEMRNq6UPCLhAC5RE3ohbW2teNrauiHI3oRhXCIkZDGtHL75VNo913VFUQz4X9fPdxvXwO4OMJAwtEtEhLCBtw4/lc4VqsrexdRbwlRWcXn3c+t60TcQwgNW3nzeLeNOF3bWpkqV89Knw62AZE6YkIX19fN5KqWyS87H5rZjSNn7t6e9L/xCahCirKW8q2L3JGR0JSOlycDGLwv3peWioNj2XIxdeF5Npdilwzs21iQJ+VYv6ZjDQVCX+6sP3r69eNHUxcXb7+9+u9wzYhAgxWV+bewAQlib3MZg2rv87d33txc+l7dvH6zuX35hLgbY6KX2FTE5wuXllTe7WGMbfVu5BLYX95pXdbvX+od9fQER/s6yS7Xs/cYVln2Ey9OH97Ma4F0Zf8Qur13aTDyXS2UblgTV8O6blRbjhAhh1/taUig20NzV5ep3L6x7weL3XDzYv2KZRLtf+VV6m4Tgsws/heT98efTp2j/JhfA/L56ecXWPVVK4LM8MUJI36eqTGEH2b6E3PWG8wcIkL9n5hAmu1/heMEJ4evXXYIB7+qPl0+ePWOEfVx+gVxebrMFIVc/8UT6CGeGJ3zoJ4Rl9VlVYXEalw8GorsO7+3qF2BMffzayOHXjyngu/rx59MnTwYhbFI+uDQgk6r6GRb9NeHDEQibSeSEK58VaqDY3v7Fi8HxGs+/d7H6JWYgWKtACOuTLc8ffz178mRwQg754mJ/Dw48VPm8ck34aBTCmRahUTZkWJ48feHwmsGtKpBHtjQxhnVw9afHF4bQ84HVGkMyxNMg5IDDE3oLlREaBjL2v98bBq8R28WqgfgrA7paXcUvn/gJw/jc+77PjTghX6IjEc7MPHr48OE7WGLbv397OIoePZr5drkNkW1ffnv4roMwpNe337eREXv38NHMzBgImb6xsGbGoHkgZMadhKGN2MbyRzQq4cy3d7+OyObp1z20x5xGJpz59V3bJh+ZcFwaH2GHBOE/kjA2/+sE9A0Iv8HX+Q7CkY2HIDSaldp4dWVcsS9frvyExpeRffeMsITEQBMRe8FnumJvuVuEY/hlBglHuPC+rkxUVy+fPfMQOeHohvX3If960MHCRHWS8hPi0zFYRviH5wbR+mtOyBiBUN647XjGr38M4Uuooe40IRxi/np2lwmf/iASenmHCZ8aqfVNAxDvLOH/KIA9x+iOEqb++l+Kc81qf/xF7yKh+oMee3/e7wRu3klCmmi+CTkld5Iwdf02cuc0dRcJX/veJx8c3UXCtr+wtfDhtuKYnHZu/FZISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISGhI/R+8E/dDCqqlVQAAAABJRU5ErkJggg==">
+        <img id="s" src="https://thumbs.dreamstime.com/b/grade-result-f-hand-drawn-vector-grade-f-red-circle-test-exam-mark-report-grade-result-f-hand-drawn-vector-grade-f-red-138272117.jpg"> -->
+        <script>
+            const present = document.getElementById("present");
+            present.addEventListener("click", function() {
+                window.location.href = "topic1.html";
+            });
+        </script>
+    </body>
+</html>
